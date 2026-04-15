@@ -56,6 +56,17 @@ Experiments were conducted using controlled maps with predefined surface anomali
 This allowed systematic evaluation of detection performance and sensor limitations.
 
 ## Repository Structure
+/code → Arduino implementation (.ino files)
+/maps → Experimental surface maps
+/data → Collected sensor data (optional)
+/figures → Graphs and results
+/docs → Report and supporting documents
+
+/code → Arduino implementation (.ino files)
+/maps → Experimental surface maps
+/data → Collected sensor data (optional)
+/figures → Graphs and results
+/docs → Report and supporting documents
 
 
 
