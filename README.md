@@ -16,9 +16,6 @@ This project addresses these challenges by implementing a structured sensing and
 - A two-pass scanning strategy for improved accuracy  
 
 
-## Repository Structure
-
-
 
 ## Methodology
 ### Baseline Data Collection
@@ -48,8 +45,19 @@ To improve detection reliability, three filtering techniques were evaluated:
 
 These filters were compared to evaluate the trade-off between noise reduction and detection responsiveness.
 
+## Experimental Setup
+
+Experiments were conducted using controlled maps with predefined surface anomalies, including variations in:
+
+- Feature width  
+- Greyscale intensity  
+- Shape and spacing  
+
+This allowed systematic evaluation of detection performance and sensor limitations.
+
+## Repository Structure
 
 
 
 
-## Experimentation and Results  
+ 
