@@ -11,7 +11,7 @@ Surface inspection is a key task in robotics applications such as industrial qua
 This project addresses these challenges by implementing a structured sensing and control framework that enables:
 - Real-time anomaly detection  
 - Estimation of feature width using encoder feedback  
-- Normalised reflectance measurement (greyscale %)  
+- Normalised reflectance measurement (Darkness %)  
 - Robust detection using signal filtering  
 - A two-pass scanning strategy for improved accuracy  
 
@@ -56,17 +56,12 @@ Experiments were conducted using controlled maps with predefined surface anomali
 This allowed systematic evaluation of detection performance and sensor limitations.
 
 ## Repository Structure
-/code → Arduino implementation (.ino files)
-/maps → Experimental surface maps
-/data → Collected sensor data (optional)
-/figures → Graphs and results
-/docs → Report and supporting documents
+- code → Arduino implementation (.ino files)
+- maps → Experimental surface maps
+- data → Collected sensor data (optional)
+- figures → Graphs and results
+- docs → Report and supporting documents
 
-/code → Arduino implementation (.ino files)
-/maps → Experimental surface maps
-/data → Collected sensor data (optional)
-/figures → Graphs and results
-/docs → Report and supporting documents
 
 
 
