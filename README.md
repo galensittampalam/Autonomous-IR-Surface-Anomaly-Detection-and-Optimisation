@@ -58,7 +58,7 @@ This allowed systematic evaluation of detection performance and sensor limitatio
 ## Repository Structure
 - code → Arduino implementation (.ino files)
 - maps → Experimental surface maps
-- data → Collected sensor data (optional)
+- data → Collected sensor data 
 - figures → Graphs and results
 - docs → Report and supporting documents
 
