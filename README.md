@@ -50,7 +50,7 @@ These filters were compared to evaluate the trade-off between noise reduction an
 Experiments were conducted using controlled maps with predefined surface anomalies, including variations in:
 
 - Feature width  
-- Greyscale intensity  
+- Contrast % 
 - Shape and spacing  
 
 This allowed systematic evaluation of detection performance and sensor limitations.
