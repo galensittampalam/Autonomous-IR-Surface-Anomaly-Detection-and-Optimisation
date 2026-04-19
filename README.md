@@ -10,7 +10,7 @@ Surface inspection is a key task in robotics applications such as industrial qua
 This project addresses these challenges by implementing a structured sensing and control framework that enables:
 - Real-time anomaly detection  
 - Estimation of feature width using encoder feedback  
-- Normalised reflectance measurement (Darkness %)  
+- Normalised reflectance measurement (Contrast %)  
 - Robust detection using signal filtering  
 - A two-pass scanning strategy for improved accuracy  
 
