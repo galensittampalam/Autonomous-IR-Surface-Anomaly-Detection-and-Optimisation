@@ -3,8 +3,7 @@ This project investigates the feasibility of using low-cost infrared (IR) reflec
 The system extends traditional line-following approaches by enabling the detection, measurement, and classification of surface features such as cracks and discontinuities through reflectance analysis.
 
 ## Abstract
-This investigation evaluates the optimisation of surface anomaly detecion using the infrared (IR) sensors on the 3Pi+ Robot
-The Baseline.... According to experimental results....
+Low cost infrared (IR) reflectance sensors offer a practical basis for autonomous surface inspection for applications such as quality control. However, their diffuse spatial sensing footprint limits their sensitivity to small or narrow surface defects. This research investigates whether a two-pass scanning strategy with speed adaptation and signal filtering can improve surface anomaly detection using the Pololu 3Pi+ robot. Experiments were conducted on printed maps with prescribed imperfection widths (1-5cm) and contrast levels (20-100\%). Reducing the robots passing speed from PWM=60 to PWM=20 increased boundary sampling density from approximately 1 to 6 samples. This enabled reliable detection down to 2cm. EMA signal filtering provided the best balance of noise reduction and real time performance. Whilst it improved noise characteristics, it could not recover spatial detail lost at higher speeds. The results of this investigation suggest motion control is more effective than signal processing for this class of sesnor and that sensor geometry represents the fundamental limit on minimum detectable size.
 
 ## Overview 
 Surface inspection is a key task in robotics applications such as industrial quality control and infrastructure monitoring. However, detecting small-scale surface defects using low-cost sensors presents challenges due to noise, sensor bias, and spatial averaging effects.
